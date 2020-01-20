@@ -4,10 +4,9 @@ version = "0.1.0"
 authors = ["Shirshak <8097377+shirshak55@users.noreply.github.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-psutil = "1.7.0"
+psutil = {git = "https://github.com/borntyping/rust-psutil",version= "1.7.0"}
 
 [profile.release]
 lto = true
